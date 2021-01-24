@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pixel Grid Canvas 0.0.2</title>
+    <title>Pixel Grid Canvas 0.2.1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
 </head>
 <body>
-    <div id="header" class="center">
-        <h1>Pixel Grid Canvas</h1>
-    </div>
-    <div id="main" class="center">
-        <canvas id="drawingArea" width="400" height="400"></canvas>
-        <canvas id="drawingGrid" width="400" height="400"></canvas>
-        <script src="pixel_grid_canvas.js"></script>
-    </div>
-    <div id="menu" class="center">
-        <span class="buttons">
-        <button onclick="pg.setColor('#000000')">Black</button>
-        <button onclick="pg.setColor('#FFFFFF')">White</button>
-        <button onclick="pg.setColor('#FF0000')">Red</button>
-        <button onclick="pg.setErase(true)">Eraser</button>
-        <button onclick="pg.clearCanvas()">Clear</button>
-        </span>
+    <div id="wrap">
+        <div id="header" class="center">
+            <h1><span class="red">PIXEL</span><span class="green">GRID</span><span class="blue">CANVAS</span></h1>
+        </div>
+        <div id="main" class="center">
+            <canvas id="drawingArea" width="400" height="400"></canvas>
+            <canvas id="drawingGrid" width="400" height="400"></canvas>
+            <script src="pixel_grid_canvas.js"></script>
+        </div>
+        <div id="menu" class="center">
+            <span class="buttons">
+            <button onclick="pg.setColor('#000000')">Black</button>
+            <button onclick="pg.setColor('#FFFFFF')">White</button>
+            <button onclick="pg.setColor('#FF0000')">Red</button>
+            <button onclick="pg.setErase(true)">Eraser</button>
+            <button onclick="pg.clearCanvas()">Clear</button>
+            </span>
+        </div>
     </div>
 </body>
 </html>
