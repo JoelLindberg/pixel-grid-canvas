@@ -22,18 +22,18 @@ Goals:
 
 ### Version 0.2.0 (design and tools)
 - [x] Re-make grid because the current solution is not scalable or future proof. Also not easy to understand.
-- [] Advanced color selection (color to the left and brightness/saturation to the right).
-- [] Tool buttons: Pen, Eraser, Fill, Clear, Grid (toggle).
-- [] Make it pretty! Put time into design.
+- [ ] Advanced color selection (color to the left and brightness/saturation to the right).
+- [ ] Tool buttons: Pen, Eraser, Fill, Clear, Grid (toggle).
+- [ ] Make it pretty! Put time into design.
 
 ### Version 0.3.0 (structure and safety before moving forward)
-- [] Refactor code and make it more readable and re-usable.
-- [] Block out the "Usage" guide to force myself to think through the structure while refactoring.
-- [] Add tests.
+- [ ] Refactor code and make it more readable and re-usable.
+- [ ] Block out the "Usage" guide to force myself to think through the structure while refactoring.
+- [ ] Add tests.
 
 ### Version 0.4.0 (add more tools)
-- [] Mirroring for pattern making.
-- [] Save to file as png with alpha.
+- [ ] Mirroring for pattern making.
+- [ ] Save to file as png with alpha.
 
 ## Usage
 Step by step guide ...<br/>
