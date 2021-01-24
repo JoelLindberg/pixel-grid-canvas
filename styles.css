@@ -1,0 +1,38 @@
+html {
+    background-color: #262626;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #e1e1e1;
+}
+
+#main {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+canvas { position: absolute; }
+
+#drawingArea {
+    z-index: 2;
+}
+
+#drawingGrid {
+    z-index: 1; 
+}
+
+#menu .buttons {
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
